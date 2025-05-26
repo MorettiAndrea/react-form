@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ## utilities */
+
+.custom-container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-row {
+  display: flex;
+  gap: 3en;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.card {
+  padding: 2rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  gap: 1rem;
+  border: 1px solid black;
+}
+
+h1 {
+  padding-left: 5rem;
+  padding-top: 2rem;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.custom-button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  color: black;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: dodgerblue;
+  cursor: pointer;
+}
+
+.selected {
+  color: white;
+  background-color: yellow;
+}
