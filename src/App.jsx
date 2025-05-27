@@ -12,8 +12,12 @@ export default function App() {
 
   const handleNewArticle = (e) => {
     e.preventDefault();
-    const newArticlesList = { ...articles, newArticles };
-    setArticles(newArticlesList);
+    const newArticle = {
+      id: articles.length + 1,
+      giornale: "Nuovo Giornale",
+      title: newArticles,
+    };
+    setArticles((prevArticles) => [...prevArticles, newArticle]);
     setNewArticles("");
   };
   // gestione cancellazione
